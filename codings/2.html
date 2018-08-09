@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TICKET CANCELLATION</title>
+<script>
+	function fucn()
+	{
+		alert("TICKET IS CANCELLED");
+	}
+	</script>
+<style>
+	#conatainer ul{
+		list-style: none;
+	}
+	#conatainer ul li{
+		background-color:#821850;
+		width: 250px;
+		border: 1px solid white;
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+		float: left;
+		color:white;
+		font-size: 20px;
+	}
+	#conatainer ul li:hover{
+		background-color:#000000;
+	}
+	#conatainer ul li a{
+		color:white;
+	}
+	
+		#img{
+		width: 1365px;
+		height: 157px;
+		background-size: contain;
+		background-repeat:no-repeat;
+		background-image: url(pic1.jpg);
+		
+		background-size: 100% 100%;
+			position: fixed;
+			left: 0;
+			right: 0;
+			margin-top: 50px;
+	}
+	#concept{
+		width: 500px;
+		height: 328px;
+		margin-left: 400px;
+	}
+	</style>
+</head>
+
+<body bgcolor=#FFFFFF>
+<div id="conatainer">
+	<ul>
+	<li><a href="main.html" style="text-decoration: none">ETICKETINGSYSTEM</a></li>
+	<li><a href="1.html" style="text-decoration: none">HOME</a></li>
+	<li><a href="2.html" style="text-decoration: none">CANCEL TICKET</a></li>
+	<li><a href="3.html" style="text-decoration: none">ABOUT US</a></li>
+	<li><a href="4.html" style="text-decoration: none">CONATCT US</a></li>
+	</ul>
+	<br><br><br><br><br>
+</div>
+<hr>
+<div id="concept" style="border: 0px solid red">
+	<center><h1>Cancel Ticket</h1></center>
+	<form>
+	<span style="margin-left: 100px;">
+	<label>Username</label>
+	<input type="text" placeholder="enter username" ><br><br>
+	<span style="margin-left: 100px;">
+	<label>Travels</label>
+	<select><option>RATHIMEENA</option><option>KKR</option><option>FARVEEN</option></select><br><br>
+	<span style="margin-left: 100px;">
+	<label>No. of Seats booked</label>
+	<select><option>1</option><option>2</option><option>3</option><option>4</option></SELECT><BR><BR>
+	<center><input type="submit" value="RETRIEVE" onClick="fucn()"></center>
+	</form>
+	</div>
+<div id="img" style="border: 0px solid red">
+	
+	</div>
+</body>
+</html>

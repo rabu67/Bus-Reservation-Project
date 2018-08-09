@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HOME-ETICKETING</title>
+<style>
+	#conatainer ul{
+		list-style: none;
+	}
+	#conatainer ul li{
+		background-color:#821850;
+		width: 250px;
+		border: 1px solid white;
+		height:50px;
+		line-height: 50px;
+		text-align: center;
+		float: left;
+		color:white;
+		font-size: 20px;
+	}
+	#conatainer ul li:hover{
+		background-color:#000000;
+	}
+	#conatainer ul li a{
+		color:white;
+	}
+	
+		#img{
+		width: 1365px;
+		height: 157px;
+		background-size: contain;
+		background-repeat:no-repeat;
+		background-image: url(pic1.jpg);
+		
+		background-size: 100% 100%;
+			position: fixed;
+			left: 0;
+			right: 0;
+			margin-top: 50px;
+	}
+	#concept{
+		width: 500px;
+		height: 328px;
+		margin-left: 400px;
+	}
+	input[type=text] {
+    width: 64%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+	</style>
+	
+</head>
+
+
+<body bgcolor=#FFFFFF>
+<div id="conatainer">
+	<ul>
+	<li><a href="main.html" style="text-decoration: none">ETICKETINGSYSTEM</a></li>
+	<li><a href="1.html" style="text-decoration: none">HOME</a></li>
+	<li><a href="2.html" style="text-decoration: none">CANCEL TICKET</a></li>
+	<li><a href="3.html" style="text-decoration: none">ABOUT US</a></li>
+	<li><a href="4.html" style="text-decoration: none">CONATCT US</a></li>
+	</ul>
+	<br><br><br><br><br>
+</div>
+<hr>
+<div id="concept" style="border: 0px solid red">
+	<center><b><h2>Search for buses</h2></b></center><br>
+	<form action="5.html">
+	<span style="margin-left: 100px;">
+	
+	<input type="text" placeholder="Starting point" name="t1"><br><br>
+	<span style="margin-left: 100px;">
+	<input type="text" placeholder="Destination point" name="t2"><br><br>
+	<span style="margin-left: 100px;">
+	<label>Date of Journey</label>
+	<input type="date"  name="t3"><br><BR>
+	<center><input type="submit" value="SEARCH"></center>
+	</form>
+</div>
+<div id="img" style="border: 0px solid red">
+	
+	</div>
+</body>
+</html>
